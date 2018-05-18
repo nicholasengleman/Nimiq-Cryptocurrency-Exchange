@@ -1,0 +1,24 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background: lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+
+.header__buttonLogin {
+	width: 100px;
+	height: 30px;
+	background: lightsteelblue;
+	outline: none;
+	border: none;
+}
+
+.header__buttonLogin:hover {
+	cursor: pointer;
+	background: #222222;
+	color: white;
+}
